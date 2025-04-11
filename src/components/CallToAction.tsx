@@ -15,16 +15,7 @@ const CallToAction = () => {
             Join thousands of students already learning to code on our platform.
             Start with free courses or unlock premium content.
           </p>
-          <div className="mt-8 flex justify-center gap-4">
-            <Link to="/signup">
-              <Button
-                size="lg"
-                className="px-8 bg-white text-accent1 hover:bg-gray-100"
-              >
-                Get Started Free
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
+          <div className="mt-8 flex justify-center">
             <Link to="/courses">
               <Button
                 size="lg"

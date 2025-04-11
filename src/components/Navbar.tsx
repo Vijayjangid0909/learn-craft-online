@@ -93,9 +93,6 @@ const Navbar = () => {
                 Login
               </Button>
             </Link>
-            <Link to="/signup">
-              <Button>Sign Up</Button>
-            </Link>
           </div>
           <div className="flex md:hidden items-center">
             <button
@@ -145,14 +142,11 @@ const Navbar = () => {
             >
               Blog
             </Link>
-            <div className="flex space-x-2 pt-2">
+            <div className="flex pt-2">
               <Link to="/login" className="flex-1">
                 <Button variant="outline" className="w-full">
                   Login
                 </Button>
-              </Link>
-              <Link to="/signup" className="flex-1">
-                <Button className="w-full">Sign Up</Button>
               </Link>
             </div>
           </div>
