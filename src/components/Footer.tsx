@@ -200,11 +200,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-800 text-sm text-center">
-          <p>
-            &copy; {new Date().getFullYear()} CodeLearn. All rights reserved.
-          </p>
-        </div>
+        {/* Removed the copyright section completely */}
       </div>
     </footer>
   );
